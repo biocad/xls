@@ -9,7 +9,7 @@
 --
 -- Parse Microsoft excel spreadsheet xls file (format BIFF/Excel 97-2004).
 --
-{-# OPTIONS_GHC -pgmP gcc -optP -E -optP -undef -optP -std=c89 #-}
+{-# OPTIONS_GHC -pgmP cpp #-}
 
 {-# LANGUAGE CPP #-}
 {-# LANGUAGE EmptyDataDecls #-}
